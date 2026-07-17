@@ -1,0 +1,10 @@
+name: PermissionChecker
+version: '1.0'
+main: me.plugin.permissionchecker.PermissionChecker
+api-version: '1.21'
+commands:
+  checkpermission:
+    description: Узнать permission команды
+    permission: permissionchecker.admin
+    permission-message: §cУ вас нет прав для использования этой команды!
+    usage: /checkpermission <команда>
